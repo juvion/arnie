@@ -1,0 +1,39 @@
+# paths to local installations of packages.  If package is not installed, leave as None
+# Replace paths below with paths to your installations.
+# NB: .gitignore file ignores *.arnie files. Name it as such if you don't want your local path file 
+# included with your git repo.
+
+# Vienna RNAfold 2 Mac using installer:
+# for path to a vienna build:
+vienna_2: /home/ju/rna/ViennaRNA-2.5.1/src/bin
+#vienna_1: /path/to/ViennaRNA-1.8.5/bin
+
+# NUPACK build:
+nupack: /home/ju/rna/nupack3.2.2/build/bin
+
+# CONTRAfold build
+contrafold_2: /home/ju/rna/contrafold-se/src
+contrafold: /home/ju/rna/contrafold/src
+
+# RNASoft build
+#rnasoft: /path/to/MultiRNAFold
+
+# RNAstructure (precompiled command line src)
+rnastructure: /home/ju/rna/RNAstructure/exe
+
+# Path to EternaFold
+eternafold: /home/ju/rna/EternaFold/src/
+
+# (DEPRECATED, better to put path to Eternafold)
+# Path to EternaFold parameters
+# eternafoldparams: /home/ju/rna/EternaFold/parameters/EternaFoldParams.v1
+
+# LinearFold build
+linearfold: /home/ju/rna/LinearFold/bin
+
+#LinearPartition build
+# linearpartition: /home/ju/rna/LinearPartition/bin
+linearpartition: /home/ju/rna/LinearPartition
+
+#directory to write temp files
+TMP: /tmp
